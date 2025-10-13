@@ -19,6 +19,7 @@ selected_state = "New York"
 
 # Streamlit app
 st.title("Modelo de Regresión")
+st.markdown("##### Elaborado por Orlando Advíncula Zeballos.")
 st.markdown("##### Si colocas un valor negativo, aparecerá un error y no podrás completar otros campos. La predicción será incorrecta.")
 
 # Sidebar para la entrada del usuario
@@ -103,4 +104,5 @@ if st.sidebar.button("Resetear"):
 # eso determinan  cómo predice el modelo. 
 
 #  streamlit run streamlitpipelines.py       en la consola
+
 #  pip freeze > requirements.txt
